@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.*;
 
 @Entity
+@Table(name="project")
 public class Project {
 	@Id
 	private String id;

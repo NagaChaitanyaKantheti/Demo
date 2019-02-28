@@ -3,6 +3,7 @@ package com.mappings.models;
 import javax.persistence.*;
 
 @Entity
+@Table(name="stage")
 public class Stage {
 	@Id
 	private String id;

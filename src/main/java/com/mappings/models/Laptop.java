@@ -10,6 +10,8 @@ public class Laptop {
 	@Id
 	private long id;
 	private String name;
+	
+	
 
 	public Laptop(long id, String name) {
 		super();
